@@ -1,0 +1,30 @@
+# Ignore the virtual environment
+llm_env/
+
+# Ignore downloaded model files (Hugging Face model cache)
+models/
+
+# Hugging Face cache
+~/.cache/huggingface
+
+# Ignore temporary or system-specific files
+*.pyc
+__pycache__/
+.DS_Store
+
+# Logs and debug files
+*.log
+*.tmp
+
+# Ignore large binaries or datasets (add specific extensions if needed)
+*.bin
+*.ckpt
+*.h5
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore unnecessary libraries and build artifacts
+*.so
+*.dylib
+
